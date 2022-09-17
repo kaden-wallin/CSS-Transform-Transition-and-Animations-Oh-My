@@ -20,6 +20,7 @@ button {
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
+  border: none;
 }
 
 button:hover {

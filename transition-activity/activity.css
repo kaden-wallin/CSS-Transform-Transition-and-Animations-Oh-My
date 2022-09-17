@@ -1,1 +1,31 @@
 
+button:hover {
+    background-color: cornflowerblue;
+    color: white;
+    transition-duration: 2s;
+}
+article{
+    position: relative;
+    overflow: hidden;
+}
+article > img {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+article > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+    transform: translateY(93%);
+    transition: transform .35s ease-out;
+    text-align: left;
+}
+article:hover #goingDown {
+    transform: translateY(0);
+}
